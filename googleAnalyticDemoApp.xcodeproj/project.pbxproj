@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1744E31A8C134900E2CA6D /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1744E21A8C134900E2CA6D /* BlueViewController.m */; };
 		EBCCEA9F1A8AC9B5005ECBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCCEA9E1A8AC9B5005ECBC5 /* main.m */; };
 		EBCCEAA21A8AC9B5005ECBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCCEAA11A8AC9B5005ECBC5 /* AppDelegate.m */; };
 		EBCCEAA51A8AC9B5005ECBC5 /* googleAnalyticDemoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBCCEAA31A8AC9B5005ECBC5 /* googleAnalyticDemoApp.xcdatamodeld */; };
@@ -15,6 +16,13 @@
 		EBCCEAAD1A8AC9B5005ECBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCCEAAC1A8AC9B5005ECBC5 /* Images.xcassets */; };
 		EBCCEAB01A8AC9B5005ECBC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBCCEAAE1A8AC9B5005ECBC5 /* LaunchScreen.xib */; };
 		EBCCEABC1A8AC9B5005ECBC5 /* googleAnalyticDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCCEABB1A8AC9B5005ECBC5 /* googleAnalyticDemoAppTests.m */; };
+		EBCCEBCB1A8ACBAE005ECBC5 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBC31A8ACB9A005ECBC5 /* libGoogleAnalyticsServices.a */; };
+		EBCCEBCD1A8ACBB7005ECBC5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBCC1A8ACBB7005ECBC5 /* CoreData.framework */; };
+		EBCCEBCE1A8ACBD6005ECBC5 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBC21A8ACB9A005ECBC5 /* libAdIdAccess.a */; };
+		EBCCEBD01A8ACBE7005ECBC5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBCF1A8ACBE7005ECBC5 /* SystemConfiguration.framework */; };
+		EBCCEBD21A8ACC01005ECBC5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBD11A8ACC01005ECBC5 /* libz.dylib */; };
+		EBCCEBD41A8ACC14005ECBC5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBD31A8ACC14005ECBC5 /* libsqlite3.dylib */; };
+		EBCCEBE11A8AD27B005ECBC5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCCEBE01A8AD27B005ECBC5 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,9 +33,39 @@
 			remoteGlobalIDString = EBCCEA981A8AC9B5005ECBC5;
 			remoteInfo = googleAnalyticDemoApp;
 		};
+		EBCCEB431A8ACAAB005ECBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCCEB0E1A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 113B6EE3153E1F0B003CAC38;
+			remoteInfo = CuteAnimals;
+		};
+		EBCCEB461A8ACAAB005ECBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCCEAD21A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 113B6EE3153E1F0B003CAC38;
+			remoteInfo = CuteAnimals;
+		};
+		EBCCEBC61A8ACB9A005ECBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCCEB911A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 113B6EE3153E1F0B003CAC38;
+			remoteInfo = CuteAnimals;
+		};
+		EBCCEBC91A8ACB9A005ECBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCCEB551A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 113B6EE3153E1F0B003CAC38;
+			remoteInfo = CuteAnimals;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB1744E11A8C134900E2CA6D /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		EB1744E21A8C134900E2CA6D /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 		EBCCEA991A8AC9B5005ECBC5 /* googleAnalyticDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleAnalyticDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCCEA9D1A8AC9B5005ECBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBCCEA9E1A8AC9B5005ECBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +80,241 @@
 		EBCCEAB51A8AC9B5005ECBC5 /* googleAnalyticDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleAnalyticDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCCEABA1A8AC9B5005ECBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBCCEABB1A8AC9B5005ECBC5 /* googleAnalyticDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleAnalyticDemoAppTests.m; sourceTree = "<group>"; };
+		EBCCEAC71A8ACAAA005ECBC5 /* Changelog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		EBCCEACA1A8ACAAA005ECBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBCCEACB1A8ACAAA005ECBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBCCEACC1A8ACAAA005ECBC5 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		EBCCEACD1A8ACAAA005ECBC5 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		EBCCEACE1A8ACAAA005ECBC5 /* CategoryViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPad.xib; sourceTree = "<group>"; };
+		EBCCEACF1A8ACAAA005ECBC5 /* CategoryViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPhone.xib; sourceTree = "<group>"; };
+		EBCCEAD01A8ACAAA005ECBC5 /* CuteAnimals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CuteAnimals-Info.plist"; sourceTree = "<group>"; };
+		EBCCEAD11A8ACAAA005ECBC5 /* CuteAnimals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CuteAnimals-Prefix.pch"; sourceTree = "<group>"; };
+		EBCCEAD21A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CuteAnimals.xcodeproj; sourceTree = "<group>"; };
+		EBCCEAD61A8ACAAA005ECBC5 /* Bunny-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-1.jpg"; sourceTree = "<group>"; };
+		EBCCEAD71A8ACAAA005ECBC5 /* Bunny-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-2.jpg"; sourceTree = "<group>"; };
+		EBCCEAD81A8ACAAA005ECBC5 /* Bunny-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-3.jpg"; sourceTree = "<group>"; };
+		EBCCEAD91A8ACAAA005ECBC5 /* Cat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-1.jpg"; sourceTree = "<group>"; };
+		EBCCEADA1A8ACAAA005ECBC5 /* Cat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-2.jpg"; sourceTree = "<group>"; };
+		EBCCEADB1A8ACAAA005ECBC5 /* Cat-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-3.jpg"; sourceTree = "<group>"; };
+		EBCCEADC1A8ACAAA005ECBC5 /* Cat-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-4.jpg"; sourceTree = "<group>"; };
+		EBCCEADD1A8ACAAA005ECBC5 /* Lion-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-1.jpg"; sourceTree = "<group>"; };
+		EBCCEADE1A8ACAAA005ECBC5 /* Lion-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-2.jpg"; sourceTree = "<group>"; };
+		EBCCEADF1A8ACAAA005ECBC5 /* Lion-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-3.jpg"; sourceTree = "<group>"; };
+		EBCCEAE01A8ACAAA005ECBC5 /* Lion-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-4.jpg"; sourceTree = "<group>"; };
+		EBCCEAE11A8ACAAA005ECBC5 /* Monkey-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-1.jpg"; sourceTree = "<group>"; };
+		EBCCEAE21A8ACAAA005ECBC5 /* Monkey-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-2.jpg"; sourceTree = "<group>"; };
+		EBCCEAE31A8ACAAA005ECBC5 /* Monkey-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-3.jpg"; sourceTree = "<group>"; };
+		EBCCEAE41A8ACAAA005ECBC5 /* Monkey-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-4.jpg"; sourceTree = "<group>"; };
+		EBCCEAE51A8ACAAA005ECBC5 /* Monkey-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-5.jpg"; sourceTree = "<group>"; };
+		EBCCEAE61A8ACAAA005ECBC5 /* Tiger-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-1.jpg"; sourceTree = "<group>"; };
+		EBCCEAE71A8ACAAA005ECBC5 /* Tiger-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-2.jpg"; sourceTree = "<group>"; };
+		EBCCEAE81A8ACAAA005ECBC5 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		EBCCEAE91A8ACAAA005ECBC5 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		EBCCEAEA1A8ACAAA005ECBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBCCEAEB1A8ACAAA005ECBC5 /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		EBCCEAEC1A8ACAAA005ECBC5 /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		EBCCEAED1A8ACAAA005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEAEE1A8ACAAA005ECBC5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EBCCEAEF1A8ACAAA005ECBC5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EBCCEAF01A8ACAAA005ECBC5 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		EBCCEAF11A8ACAAA005ECBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EBCCEAF31A8ACAAA005ECBC5 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		EBCCEAF41A8ACAAA005ECBC5 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		EBCCEAF51A8ACAAA005ECBC5 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		EBCCEAF61A8ACAAA005ECBC5 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		EBCCEAF71A8ACAAA005ECBC5 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		EBCCEAF81A8ACAAA005ECBC5 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		EBCCEAF91A8ACAAA005ECBC5 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		EBCCEAFA1A8ACAAA005ECBC5 /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		EBCCEAFB1A8ACAAA005ECBC5 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		EBCCEAFC1A8ACAAA005ECBC5 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		EBCCEAFD1A8ACAAA005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEAFF1A8ACAAA005ECBC5 /* Changelog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		EBCCEB021A8ACAAA005ECBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBCCEB031A8ACAAA005ECBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBCCEB041A8ACAAA005ECBC5 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		EBCCEB051A8ACAAA005ECBC5 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		EBCCEB061A8ACAAA005ECBC5 /* CategoryViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPad.xib; sourceTree = "<group>"; };
+		EBCCEB071A8ACAAA005ECBC5 /* CategoryViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPhone.xib; sourceTree = "<group>"; };
+		EBCCEB081A8ACAAA005ECBC5 /* CustomMacroHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMacroHandler.h; sourceTree = "<group>"; };
+		EBCCEB091A8ACAAA005ECBC5 /* CustomMacroHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMacroHandler.m; sourceTree = "<group>"; };
+		EBCCEB0A1A8ACAAA005ECBC5 /* CustomTagHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTagHandler.h; sourceTree = "<group>"; };
+		EBCCEB0B1A8ACAAA005ECBC5 /* CustomTagHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTagHandler.m; sourceTree = "<group>"; };
+		EBCCEB0C1A8ACAAA005ECBC5 /* CuteAnimals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CuteAnimals-Info.plist"; sourceTree = "<group>"; };
+		EBCCEB0D1A8ACAAA005ECBC5 /* CuteAnimals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CuteAnimals-Prefix.pch"; sourceTree = "<group>"; };
+		EBCCEB0E1A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CuteAnimals.xcodeproj; sourceTree = "<group>"; };
+		EBCCEB111A8ACAAA005ECBC5 /* GTM-XXXX */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-XXXX"; sourceTree = "<group>"; };
+		EBCCEB121A8ACAAA005ECBC5 /* GTM-XXXX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTM-XXXX.plist"; sourceTree = "<group>"; };
+		EBCCEB141A8ACAAA005ECBC5 /* Bunny-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB151A8ACAAA005ECBC5 /* Bunny-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB161A8ACAAA005ECBC5 /* Bunny-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB171A8ACAAA005ECBC5 /* Cat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB181A8ACAAA005ECBC5 /* Cat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB191A8ACAAA005ECBC5 /* Cat-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB1A1A8ACAAA005ECBC5 /* Cat-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB1B1A8ACAAA005ECBC5 /* Container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Container.png; sourceTree = "<group>"; };
+		EBCCEB1C1A8ACAAA005ECBC5 /* CustomTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomTag.png; sourceTree = "<group>"; };
+		EBCCEB1D1A8ACAAA005ECBC5 /* Lion-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB1E1A8ACAAA005ECBC5 /* Lion-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB1F1A8ACAAA005ECBC5 /* Lion-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB201A8ACAAA005ECBC5 /* Lion-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB211A8ACAAA005ECBC5 /* Monkey-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB221A8ACAAA005ECBC5 /* Monkey-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB231A8ACAAA005ECBC5 /* Monkey-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB241A8ACAAA005ECBC5 /* Monkey-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB251A8ACAAA005ECBC5 /* Monkey-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-5.jpg"; sourceTree = "<group>"; };
+		EBCCEB261A8ACAAA005ECBC5 /* NumRefreshesMod5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumRefreshesMod5.png; sourceTree = "<group>"; };
+		EBCCEB271A8ACAAA005ECBC5 /* RefreshEvent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshEvent.png; sourceTree = "<group>"; };
+		EBCCEB281A8ACAAA005ECBC5 /* RefreshEventTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshEventTag.png; sourceTree = "<group>"; };
+		EBCCEB291A8ACAAA005ECBC5 /* ScreenClosedTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenClosedTag.png; sourceTree = "<group>"; };
+		EBCCEB2A1A8ACAAA005ECBC5 /* ScreenOpenTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenOpenTag.png; sourceTree = "<group>"; };
+		EBCCEB2B1A8ACAAA005ECBC5 /* Tiger-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB2C1A8ACAAA005ECBC5 /* Tiger-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB2D1A8ACAAA005ECBC5 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		EBCCEB2E1A8ACAAA005ECBC5 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		EBCCEB2F1A8ACAAA005ECBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBCCEB301A8ACAAA005ECBC5 /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		EBCCEB311A8ACAAA005ECBC5 /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		EBCCEB321A8ACAAA005ECBC5 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		EBCCEB331A8ACAAA005ECBC5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EBCCEB341A8ACAAA005ECBC5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EBCCEB351A8ACAAA005ECBC5 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		EBCCEB361A8ACAAA005ECBC5 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EBCCEB371A8ACAAA005ECBC5 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		EBCCEB391A8ACAAA005ECBC5 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		EBCCEB3A1A8ACAAA005ECBC5 /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		EBCCEB3B1A8ACAAA005ECBC5 /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		EBCCEB3C1A8ACAAA005ECBC5 /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		EBCCEB3D1A8ACAAA005ECBC5 /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		EBCCEB3E1A8ACAAA005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEB3F1A8ACAAA005ECBC5 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		EBCCEB401A8ACAAA005ECBC5 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		EBCCEB411A8ACAAA005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEB4A1A8ACB99005ECBC5 /* Changelog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		EBCCEB4D1A8ACB99005ECBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBCCEB4E1A8ACB99005ECBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBCCEB4F1A8ACB99005ECBC5 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		EBCCEB501A8ACB99005ECBC5 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		EBCCEB511A8ACB99005ECBC5 /* CategoryViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPad.xib; sourceTree = "<group>"; };
+		EBCCEB521A8ACB99005ECBC5 /* CategoryViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPhone.xib; sourceTree = "<group>"; };
+		EBCCEB531A8ACB99005ECBC5 /* CuteAnimals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CuteAnimals-Info.plist"; sourceTree = "<group>"; };
+		EBCCEB541A8ACB99005ECBC5 /* CuteAnimals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CuteAnimals-Prefix.pch"; sourceTree = "<group>"; };
+		EBCCEB551A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CuteAnimals.xcodeproj; sourceTree = "<group>"; };
+		EBCCEB591A8ACB99005ECBC5 /* Bunny-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB5A1A8ACB99005ECBC5 /* Bunny-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB5B1A8ACB99005ECBC5 /* Bunny-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB5C1A8ACB99005ECBC5 /* Cat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB5D1A8ACB99005ECBC5 /* Cat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB5E1A8ACB99005ECBC5 /* Cat-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB5F1A8ACB99005ECBC5 /* Cat-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB601A8ACB99005ECBC5 /* Lion-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB611A8ACB99005ECBC5 /* Lion-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB621A8ACB99005ECBC5 /* Lion-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB631A8ACB99005ECBC5 /* Lion-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB641A8ACB99005ECBC5 /* Monkey-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB651A8ACB99005ECBC5 /* Monkey-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB661A8ACB99005ECBC5 /* Monkey-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB671A8ACB99005ECBC5 /* Monkey-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB681A8ACB99005ECBC5 /* Monkey-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-5.jpg"; sourceTree = "<group>"; };
+		EBCCEB691A8ACB99005ECBC5 /* Tiger-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB6A1A8ACB99005ECBC5 /* Tiger-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB6B1A8ACB99005ECBC5 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		EBCCEB6C1A8ACB99005ECBC5 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		EBCCEB6D1A8ACB99005ECBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBCCEB6E1A8ACB99005ECBC5 /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		EBCCEB6F1A8ACB99005ECBC5 /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		EBCCEB701A8ACB99005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEB711A8ACB99005ECBC5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EBCCEB721A8ACB99005ECBC5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EBCCEB731A8ACB99005ECBC5 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		EBCCEB741A8ACB99005ECBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EBCCEB761A8ACB99005ECBC5 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		EBCCEB771A8ACB99005ECBC5 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		EBCCEB781A8ACB99005ECBC5 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		EBCCEB791A8ACB99005ECBC5 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		EBCCEB7A1A8ACB99005ECBC5 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		EBCCEB7B1A8ACB99005ECBC5 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		EBCCEB7C1A8ACB99005ECBC5 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		EBCCEB7D1A8ACB99005ECBC5 /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		EBCCEB7E1A8ACB99005ECBC5 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		EBCCEB7F1A8ACB99005ECBC5 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		EBCCEB801A8ACB99005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEB821A8ACB99005ECBC5 /* Changelog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		EBCCEB851A8ACB99005ECBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBCCEB861A8ACB99005ECBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBCCEB871A8ACB99005ECBC5 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		EBCCEB881A8ACB99005ECBC5 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		EBCCEB891A8ACB99005ECBC5 /* CategoryViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPad.xib; sourceTree = "<group>"; };
+		EBCCEB8A1A8ACB99005ECBC5 /* CategoryViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController_iPhone.xib; sourceTree = "<group>"; };
+		EBCCEB8B1A8ACB99005ECBC5 /* CustomMacroHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMacroHandler.h; sourceTree = "<group>"; };
+		EBCCEB8C1A8ACB99005ECBC5 /* CustomMacroHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMacroHandler.m; sourceTree = "<group>"; };
+		EBCCEB8D1A8ACB99005ECBC5 /* CustomTagHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTagHandler.h; sourceTree = "<group>"; };
+		EBCCEB8E1A8ACB99005ECBC5 /* CustomTagHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTagHandler.m; sourceTree = "<group>"; };
+		EBCCEB8F1A8ACB99005ECBC5 /* CuteAnimals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CuteAnimals-Info.plist"; sourceTree = "<group>"; };
+		EBCCEB901A8ACB99005ECBC5 /* CuteAnimals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CuteAnimals-Prefix.pch"; sourceTree = "<group>"; };
+		EBCCEB911A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CuteAnimals.xcodeproj; sourceTree = "<group>"; };
+		EBCCEB941A8ACB99005ECBC5 /* GTM-XXXX */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-XXXX"; sourceTree = "<group>"; };
+		EBCCEB951A8ACB99005ECBC5 /* GTM-XXXX.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTM-XXXX.plist"; sourceTree = "<group>"; };
+		EBCCEB971A8ACB9A005ECBC5 /* Bunny-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB981A8ACB9A005ECBC5 /* Bunny-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB991A8ACB9A005ECBC5 /* Bunny-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bunny-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB9A1A8ACB9A005ECBC5 /* Cat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-1.jpg"; sourceTree = "<group>"; };
+		EBCCEB9B1A8ACB9A005ECBC5 /* Cat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-2.jpg"; sourceTree = "<group>"; };
+		EBCCEB9C1A8ACB9A005ECBC5 /* Cat-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-3.jpg"; sourceTree = "<group>"; };
+		EBCCEB9D1A8ACB9A005ECBC5 /* Cat-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-4.jpg"; sourceTree = "<group>"; };
+		EBCCEB9E1A8ACB9A005ECBC5 /* Container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Container.png; sourceTree = "<group>"; };
+		EBCCEB9F1A8ACB9A005ECBC5 /* CustomTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomTag.png; sourceTree = "<group>"; };
+		EBCCEBA01A8ACB9A005ECBC5 /* Lion-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-1.jpg"; sourceTree = "<group>"; };
+		EBCCEBA11A8ACB9A005ECBC5 /* Lion-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-2.jpg"; sourceTree = "<group>"; };
+		EBCCEBA21A8ACB9A005ECBC5 /* Lion-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-3.jpg"; sourceTree = "<group>"; };
+		EBCCEBA31A8ACB9A005ECBC5 /* Lion-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lion-4.jpg"; sourceTree = "<group>"; };
+		EBCCEBA41A8ACB9A005ECBC5 /* Monkey-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-1.jpg"; sourceTree = "<group>"; };
+		EBCCEBA51A8ACB9A005ECBC5 /* Monkey-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-2.jpg"; sourceTree = "<group>"; };
+		EBCCEBA61A8ACB9A005ECBC5 /* Monkey-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-3.jpg"; sourceTree = "<group>"; };
+		EBCCEBA71A8ACB9A005ECBC5 /* Monkey-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-4.jpg"; sourceTree = "<group>"; };
+		EBCCEBA81A8ACB9A005ECBC5 /* Monkey-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monkey-5.jpg"; sourceTree = "<group>"; };
+		EBCCEBA91A8ACB9A005ECBC5 /* NumRefreshesMod5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumRefreshesMod5.png; sourceTree = "<group>"; };
+		EBCCEBAA1A8ACB9A005ECBC5 /* RefreshEvent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshEvent.png; sourceTree = "<group>"; };
+		EBCCEBAB1A8ACB9A005ECBC5 /* RefreshEventTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshEventTag.png; sourceTree = "<group>"; };
+		EBCCEBAC1A8ACB9A005ECBC5 /* ScreenClosedTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenClosedTag.png; sourceTree = "<group>"; };
+		EBCCEBAD1A8ACB9A005ECBC5 /* ScreenOpenTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenOpenTag.png; sourceTree = "<group>"; };
+		EBCCEBAE1A8ACB9A005ECBC5 /* Tiger-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-1.jpg"; sourceTree = "<group>"; };
+		EBCCEBAF1A8ACB9A005ECBC5 /* Tiger-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-2.jpg"; sourceTree = "<group>"; };
+		EBCCEBB01A8ACB9A005ECBC5 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		EBCCEBB11A8ACB9A005ECBC5 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		EBCCEBB21A8ACB9A005ECBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBCCEBB31A8ACB9A005ECBC5 /* NavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		EBCCEBB41A8ACB9A005ECBC5 /* NavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		EBCCEBB51A8ACB9A005ECBC5 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		EBCCEBB61A8ACB9A005ECBC5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EBCCEBB71A8ACB9A005ECBC5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EBCCEBB81A8ACB9A005ECBC5 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		EBCCEBB91A8ACB9A005ECBC5 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EBCCEBBA1A8ACB9A005ECBC5 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		EBCCEBBC1A8ACB9A005ECBC5 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		EBCCEBBD1A8ACB9A005ECBC5 /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		EBCCEBBE1A8ACB9A005ECBC5 /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		EBCCEBBF1A8ACB9A005ECBC5 /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		EBCCEBC01A8ACB9A005ECBC5 /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		EBCCEBC11A8ACB9A005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEBC21A8ACB9A005ECBC5 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		EBCCEBC31A8ACB9A005ECBC5 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		EBCCEBC41A8ACB9A005ECBC5 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		EBCCEBCC1A8ACBB7005ECBC5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EBCCEBCF1A8ACBE7005ECBC5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EBCCEBD11A8ACC01005ECBC5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EBCCEBD31A8ACC14005ECBC5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EBCCEBD61A8ACD72005ECBC5 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
+		EBCCEBD71A8ACD72005ECBC5 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		EBCCEBD81A8ACD72005ECBC5 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		EBCCEBD91A8ACD72005ECBC5 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		EBCCEBDA1A8ACD72005ECBC5 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		EBCCEBDB1A8ACD72005ECBC5 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		EBCCEBDC1A8ACD72005ECBC5 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
+		EBCCEBDD1A8ACD72005ECBC5 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
+		EBCCEBDE1A8ACD72005ECBC5 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
+		EBCCEBDF1A8ACD72005ECBC5 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = ../../../../Downloads/GoogleAnalyticsServicesiOS_3.10/GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
+		EBCCEBE01A8AD27B005ECBC5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +322,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCCEBE11A8AD27B005ECBC5 /* AdSupport.framework in Frameworks */,
+				EBCCEBD41A8ACC14005ECBC5 /* libsqlite3.dylib in Frameworks */,
+				EBCCEBD21A8ACC01005ECBC5 /* libz.dylib in Frameworks */,
+				EBCCEBD01A8ACBE7005ECBC5 /* SystemConfiguration.framework in Frameworks */,
+				EBCCEBCE1A8ACBD6005ECBC5 /* libAdIdAccess.a in Frameworks */,
+				EBCCEBCD1A8ACBB7005ECBC5 /* CoreData.framework in Frameworks */,
+				EBCCEBCB1A8ACBAE005ECBC5 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +345,13 @@
 		EBCCEA901A8AC9B5005ECBC5 = {
 			isa = PBXGroup;
 			children = (
+				EBCCEBE01A8AD27B005ECBC5 /* AdSupport.framework */,
+				EBCCEBD31A8ACC14005ECBC5 /* libsqlite3.dylib */,
+				EBCCEBD11A8ACC01005ECBC5 /* libz.dylib */,
+				EBCCEBCF1A8ACBE7005ECBC5 /* SystemConfiguration.framework */,
+				EBCCEBCC1A8ACBB7005ECBC5 /* CoreData.framework */,
+				EBCCEB481A8ACB99005ECBC5 /* GoogleAnalyticsServicesiOS_3.10 */,
+				EBCCEAC51A8ACAAA005ECBC5 /* GoogleAnalyticsServicesiOS_3.10 */,
 				EBCCEA9B1A8AC9B5005ECBC5 /* googleAnalyticDemoApp */,
 				EBCCEAB81A8AC9B5005ECBC5 /* googleAnalyticDemoAppTests */,
 				EBCCEA9A1A8AC9B5005ECBC5 /* Products */,
@@ -87,6 +374,8 @@
 				EBCCEAA11A8AC9B5005ECBC5 /* AppDelegate.m */,
 				EBCCEAA61A8AC9B5005ECBC5 /* ViewController.h */,
 				EBCCEAA71A8AC9B5005ECBC5 /* ViewController.m */,
+				EB1744E11A8C134900E2CA6D /* BlueViewController.h */,
+				EB1744E21A8C134900E2CA6D /* BlueViewController.m */,
 				EBCCEAA91A8AC9B5005ECBC5 /* Main.storyboard */,
 				EBCCEAAC1A8AC9B5005ECBC5 /* Images.xcassets */,
 				EBCCEAAE1A8AC9B5005ECBC5 /* LaunchScreen.xib */,
@@ -99,6 +388,16 @@
 		EBCCEA9C1A8AC9B5005ECBC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBCCEBD61A8ACD72005ECBC5 /* GAI.h */,
+				EBCCEBD71A8ACD72005ECBC5 /* GAIDictionaryBuilder.h */,
+				EBCCEBD81A8ACD72005ECBC5 /* GAIEcommerceFields.h */,
+				EBCCEBD91A8ACD72005ECBC5 /* GAIEcommerceProduct.h */,
+				EBCCEBDA1A8ACD72005ECBC5 /* GAIEcommerceProductAction.h */,
+				EBCCEBDB1A8ACD72005ECBC5 /* GAIEcommercePromotion.h */,
+				EBCCEBDC1A8ACD72005ECBC5 /* GAIFields.h */,
+				EBCCEBDD1A8ACD72005ECBC5 /* GAILogger.h */,
+				EBCCEBDE1A8ACD72005ECBC5 /* GAITrackedViewController.h */,
+				EBCCEBDF1A8ACD72005ECBC5 /* GAITracker.h */,
 				EBCCEA9D1A8AC9B5005ECBC5 /* Info.plist */,
 				EBCCEA9E1A8AC9B5005ECBC5 /* main.m */,
 			);
@@ -120,6 +419,434 @@
 				EBCCEABA1A8AC9B5005ECBC5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBCCEAC51A8ACAAA005ECBC5 /* GoogleAnalyticsServicesiOS_3.10 */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEAC61A8ACAAA005ECBC5 /* GoogleAnalytics */,
+				EBCCEAFE1A8ACAAA005ECBC5 /* GoogleTagManager */,
+				EBCCEB3F1A8ACAAA005ECBC5 /* libAdIdAccess.a */,
+				EBCCEB401A8ACAAA005ECBC5 /* libGoogleAnalyticsServices.a */,
+				EBCCEB411A8ACAAA005ECBC5 /* Readme.txt */,
+			);
+			name = GoogleAnalyticsServicesiOS_3.10;
+			path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10;
+			sourceTree = "<group>";
+		};
+		EBCCEAC61A8ACAAA005ECBC5 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEAC71A8ACAAA005ECBC5 /* Changelog.txt */,
+				EBCCEAC81A8ACAAA005ECBC5 /* Examples */,
+				EBCCEAF21A8ACAAA005ECBC5 /* Library */,
+				EBCCEAFD1A8ACAAA005ECBC5 /* Readme.txt */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		EBCCEAC81A8ACAAA005ECBC5 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEAC91A8ACAAA005ECBC5 /* CuteAnimals */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		EBCCEAC91A8ACAAA005ECBC5 /* CuteAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEACA1A8ACAAA005ECBC5 /* AppDelegate.h */,
+				EBCCEACB1A8ACAAA005ECBC5 /* AppDelegate.m */,
+				EBCCEACC1A8ACAAA005ECBC5 /* CategoryViewController.h */,
+				EBCCEACD1A8ACAAA005ECBC5 /* CategoryViewController.m */,
+				EBCCEACE1A8ACAAA005ECBC5 /* CategoryViewController_iPad.xib */,
+				EBCCEACF1A8ACAAA005ECBC5 /* CategoryViewController_iPhone.xib */,
+				EBCCEAD01A8ACAAA005ECBC5 /* CuteAnimals-Info.plist */,
+				EBCCEAD11A8ACAAA005ECBC5 /* CuteAnimals-Prefix.pch */,
+				EBCCEAD21A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */,
+				EBCCEAD51A8ACAAA005ECBC5 /* Images */,
+				EBCCEAE81A8ACAAA005ECBC5 /* ImageViewController.h */,
+				EBCCEAE91A8ACAAA005ECBC5 /* ImageViewController.m */,
+				EBCCEAEA1A8ACAAA005ECBC5 /* main.m */,
+				EBCCEAEB1A8ACAAA005ECBC5 /* NavController.h */,
+				EBCCEAEC1A8ACAAA005ECBC5 /* NavController.m */,
+				EBCCEAED1A8ACAAA005ECBC5 /* Readme.txt */,
+				EBCCEAEE1A8ACAAA005ECBC5 /* RootViewController.h */,
+				EBCCEAEF1A8ACAAA005ECBC5 /* RootViewController.m */,
+				EBCCEAF01A8ACAAA005ECBC5 /* RootViewController.xib */,
+				EBCCEAF11A8ACAAA005ECBC5 /* Settings.bundle */,
+			);
+			path = CuteAnimals;
+			sourceTree = "<group>";
+		};
+		EBCCEAD31A8ACAAA005ECBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB471A8ACAAB005ECBC5 /* CuteAnimals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCCEAD51A8ACAAA005ECBC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEAD61A8ACAAA005ECBC5 /* Bunny-1.jpg */,
+				EBCCEAD71A8ACAAA005ECBC5 /* Bunny-2.jpg */,
+				EBCCEAD81A8ACAAA005ECBC5 /* Bunny-3.jpg */,
+				EBCCEAD91A8ACAAA005ECBC5 /* Cat-1.jpg */,
+				EBCCEADA1A8ACAAA005ECBC5 /* Cat-2.jpg */,
+				EBCCEADB1A8ACAAA005ECBC5 /* Cat-3.jpg */,
+				EBCCEADC1A8ACAAA005ECBC5 /* Cat-4.jpg */,
+				EBCCEADD1A8ACAAA005ECBC5 /* Lion-1.jpg */,
+				EBCCEADE1A8ACAAA005ECBC5 /* Lion-2.jpg */,
+				EBCCEADF1A8ACAAA005ECBC5 /* Lion-3.jpg */,
+				EBCCEAE01A8ACAAA005ECBC5 /* Lion-4.jpg */,
+				EBCCEAE11A8ACAAA005ECBC5 /* Monkey-1.jpg */,
+				EBCCEAE21A8ACAAA005ECBC5 /* Monkey-2.jpg */,
+				EBCCEAE31A8ACAAA005ECBC5 /* Monkey-3.jpg */,
+				EBCCEAE41A8ACAAA005ECBC5 /* Monkey-4.jpg */,
+				EBCCEAE51A8ACAAA005ECBC5 /* Monkey-5.jpg */,
+				EBCCEAE61A8ACAAA005ECBC5 /* Tiger-1.jpg */,
+				EBCCEAE71A8ACAAA005ECBC5 /* Tiger-2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EBCCEAF21A8ACAAA005ECBC5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEAF31A8ACAAA005ECBC5 /* GAI.h */,
+				EBCCEAF41A8ACAAA005ECBC5 /* GAIDictionaryBuilder.h */,
+				EBCCEAF51A8ACAAA005ECBC5 /* GAIEcommerceFields.h */,
+				EBCCEAF61A8ACAAA005ECBC5 /* GAIEcommerceProduct.h */,
+				EBCCEAF71A8ACAAA005ECBC5 /* GAIEcommerceProductAction.h */,
+				EBCCEAF81A8ACAAA005ECBC5 /* GAIEcommercePromotion.h */,
+				EBCCEAF91A8ACAAA005ECBC5 /* GAIFields.h */,
+				EBCCEAFA1A8ACAAA005ECBC5 /* GAILogger.h */,
+				EBCCEAFB1A8ACAAA005ECBC5 /* GAITrackedViewController.h */,
+				EBCCEAFC1A8ACAAA005ECBC5 /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EBCCEAFE1A8ACAAA005ECBC5 /* GoogleTagManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEAFF1A8ACAAA005ECBC5 /* Changelog.txt */,
+				EBCCEB001A8ACAAA005ECBC5 /* Examples */,
+				EBCCEB381A8ACAAA005ECBC5 /* Library */,
+				EBCCEB3E1A8ACAAA005ECBC5 /* Readme.txt */,
+			);
+			path = GoogleTagManager;
+			sourceTree = "<group>";
+		};
+		EBCCEB001A8ACAAA005ECBC5 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB011A8ACAAA005ECBC5 /* CuteAnimals */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		EBCCEB011A8ACAAA005ECBC5 /* CuteAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB021A8ACAAA005ECBC5 /* AppDelegate.h */,
+				EBCCEB031A8ACAAA005ECBC5 /* AppDelegate.m */,
+				EBCCEB041A8ACAAA005ECBC5 /* CategoryViewController.h */,
+				EBCCEB051A8ACAAA005ECBC5 /* CategoryViewController.m */,
+				EBCCEB061A8ACAAA005ECBC5 /* CategoryViewController_iPad.xib */,
+				EBCCEB071A8ACAAA005ECBC5 /* CategoryViewController_iPhone.xib */,
+				EBCCEB081A8ACAAA005ECBC5 /* CustomMacroHandler.h */,
+				EBCCEB091A8ACAAA005ECBC5 /* CustomMacroHandler.m */,
+				EBCCEB0A1A8ACAAA005ECBC5 /* CustomTagHandler.h */,
+				EBCCEB0B1A8ACAAA005ECBC5 /* CustomTagHandler.m */,
+				EBCCEB0C1A8ACAAA005ECBC5 /* CuteAnimals-Info.plist */,
+				EBCCEB0D1A8ACAAA005ECBC5 /* CuteAnimals-Prefix.pch */,
+				EBCCEB0E1A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */,
+				EBCCEB111A8ACAAA005ECBC5 /* GTM-XXXX */,
+				EBCCEB121A8ACAAA005ECBC5 /* GTM-XXXX.plist */,
+				EBCCEB131A8ACAAA005ECBC5 /* Images */,
+				EBCCEB2D1A8ACAAA005ECBC5 /* ImageViewController.h */,
+				EBCCEB2E1A8ACAAA005ECBC5 /* ImageViewController.m */,
+				EBCCEB2F1A8ACAAA005ECBC5 /* main.m */,
+				EBCCEB301A8ACAAA005ECBC5 /* NavController.h */,
+				EBCCEB311A8ACAAA005ECBC5 /* NavController.m */,
+				EBCCEB321A8ACAAA005ECBC5 /* README */,
+				EBCCEB331A8ACAAA005ECBC5 /* RootViewController.h */,
+				EBCCEB341A8ACAAA005ECBC5 /* RootViewController.m */,
+				EBCCEB351A8ACAAA005ECBC5 /* RootViewController.xib */,
+				EBCCEB361A8ACAAA005ECBC5 /* Utils.h */,
+				EBCCEB371A8ACAAA005ECBC5 /* Utils.m */,
+			);
+			path = CuteAnimals;
+			sourceTree = "<group>";
+		};
+		EBCCEB0F1A8ACAAA005ECBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB441A8ACAAB005ECBC5 /* CuteAnimals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCCEB131A8ACAAA005ECBC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB141A8ACAAA005ECBC5 /* Bunny-1.jpg */,
+				EBCCEB151A8ACAAA005ECBC5 /* Bunny-2.jpg */,
+				EBCCEB161A8ACAAA005ECBC5 /* Bunny-3.jpg */,
+				EBCCEB171A8ACAAA005ECBC5 /* Cat-1.jpg */,
+				EBCCEB181A8ACAAA005ECBC5 /* Cat-2.jpg */,
+				EBCCEB191A8ACAAA005ECBC5 /* Cat-3.jpg */,
+				EBCCEB1A1A8ACAAA005ECBC5 /* Cat-4.jpg */,
+				EBCCEB1B1A8ACAAA005ECBC5 /* Container.png */,
+				EBCCEB1C1A8ACAAA005ECBC5 /* CustomTag.png */,
+				EBCCEB1D1A8ACAAA005ECBC5 /* Lion-1.jpg */,
+				EBCCEB1E1A8ACAAA005ECBC5 /* Lion-2.jpg */,
+				EBCCEB1F1A8ACAAA005ECBC5 /* Lion-3.jpg */,
+				EBCCEB201A8ACAAA005ECBC5 /* Lion-4.jpg */,
+				EBCCEB211A8ACAAA005ECBC5 /* Monkey-1.jpg */,
+				EBCCEB221A8ACAAA005ECBC5 /* Monkey-2.jpg */,
+				EBCCEB231A8ACAAA005ECBC5 /* Monkey-3.jpg */,
+				EBCCEB241A8ACAAA005ECBC5 /* Monkey-4.jpg */,
+				EBCCEB251A8ACAAA005ECBC5 /* Monkey-5.jpg */,
+				EBCCEB261A8ACAAA005ECBC5 /* NumRefreshesMod5.png */,
+				EBCCEB271A8ACAAA005ECBC5 /* RefreshEvent.png */,
+				EBCCEB281A8ACAAA005ECBC5 /* RefreshEventTag.png */,
+				EBCCEB291A8ACAAA005ECBC5 /* ScreenClosedTag.png */,
+				EBCCEB2A1A8ACAAA005ECBC5 /* ScreenOpenTag.png */,
+				EBCCEB2B1A8ACAAA005ECBC5 /* Tiger-1.jpg */,
+				EBCCEB2C1A8ACAAA005ECBC5 /* Tiger-2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EBCCEB381A8ACAAA005ECBC5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB391A8ACAAA005ECBC5 /* TAGContainer.h */,
+				EBCCEB3A1A8ACAAA005ECBC5 /* TAGContainerOpener.h */,
+				EBCCEB3B1A8ACAAA005ECBC5 /* TAGDataLayer.h */,
+				EBCCEB3C1A8ACAAA005ECBC5 /* TAGLogger.h */,
+				EBCCEB3D1A8ACAAA005ECBC5 /* TAGManager.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EBCCEB481A8ACB99005ECBC5 /* GoogleAnalyticsServicesiOS_3.10 */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB491A8ACB99005ECBC5 /* GoogleAnalytics */,
+				EBCCEB811A8ACB99005ECBC5 /* GoogleTagManager */,
+				EBCCEBC21A8ACB9A005ECBC5 /* libAdIdAccess.a */,
+				EBCCEBC31A8ACB9A005ECBC5 /* libGoogleAnalyticsServices.a */,
+				EBCCEBC41A8ACB9A005ECBC5 /* Readme.txt */,
+			);
+			name = GoogleAnalyticsServicesiOS_3.10;
+			path = ../../../Downloads/GoogleAnalyticsServicesiOS_3.10;
+			sourceTree = "<group>";
+		};
+		EBCCEB491A8ACB99005ECBC5 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB4A1A8ACB99005ECBC5 /* Changelog.txt */,
+				EBCCEB4B1A8ACB99005ECBC5 /* Examples */,
+				EBCCEB751A8ACB99005ECBC5 /* Library */,
+				EBCCEB801A8ACB99005ECBC5 /* Readme.txt */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		EBCCEB4B1A8ACB99005ECBC5 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB4C1A8ACB99005ECBC5 /* CuteAnimals */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		EBCCEB4C1A8ACB99005ECBC5 /* CuteAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB4D1A8ACB99005ECBC5 /* AppDelegate.h */,
+				EBCCEB4E1A8ACB99005ECBC5 /* AppDelegate.m */,
+				EBCCEB4F1A8ACB99005ECBC5 /* CategoryViewController.h */,
+				EBCCEB501A8ACB99005ECBC5 /* CategoryViewController.m */,
+				EBCCEB511A8ACB99005ECBC5 /* CategoryViewController_iPad.xib */,
+				EBCCEB521A8ACB99005ECBC5 /* CategoryViewController_iPhone.xib */,
+				EBCCEB531A8ACB99005ECBC5 /* CuteAnimals-Info.plist */,
+				EBCCEB541A8ACB99005ECBC5 /* CuteAnimals-Prefix.pch */,
+				EBCCEB551A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */,
+				EBCCEB581A8ACB99005ECBC5 /* Images */,
+				EBCCEB6B1A8ACB99005ECBC5 /* ImageViewController.h */,
+				EBCCEB6C1A8ACB99005ECBC5 /* ImageViewController.m */,
+				EBCCEB6D1A8ACB99005ECBC5 /* main.m */,
+				EBCCEB6E1A8ACB99005ECBC5 /* NavController.h */,
+				EBCCEB6F1A8ACB99005ECBC5 /* NavController.m */,
+				EBCCEB701A8ACB99005ECBC5 /* Readme.txt */,
+				EBCCEB711A8ACB99005ECBC5 /* RootViewController.h */,
+				EBCCEB721A8ACB99005ECBC5 /* RootViewController.m */,
+				EBCCEB731A8ACB99005ECBC5 /* RootViewController.xib */,
+				EBCCEB741A8ACB99005ECBC5 /* Settings.bundle */,
+			);
+			path = CuteAnimals;
+			sourceTree = "<group>";
+		};
+		EBCCEB561A8ACB99005ECBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEBCA1A8ACB9A005ECBC5 /* CuteAnimals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCCEB581A8ACB99005ECBC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB591A8ACB99005ECBC5 /* Bunny-1.jpg */,
+				EBCCEB5A1A8ACB99005ECBC5 /* Bunny-2.jpg */,
+				EBCCEB5B1A8ACB99005ECBC5 /* Bunny-3.jpg */,
+				EBCCEB5C1A8ACB99005ECBC5 /* Cat-1.jpg */,
+				EBCCEB5D1A8ACB99005ECBC5 /* Cat-2.jpg */,
+				EBCCEB5E1A8ACB99005ECBC5 /* Cat-3.jpg */,
+				EBCCEB5F1A8ACB99005ECBC5 /* Cat-4.jpg */,
+				EBCCEB601A8ACB99005ECBC5 /* Lion-1.jpg */,
+				EBCCEB611A8ACB99005ECBC5 /* Lion-2.jpg */,
+				EBCCEB621A8ACB99005ECBC5 /* Lion-3.jpg */,
+				EBCCEB631A8ACB99005ECBC5 /* Lion-4.jpg */,
+				EBCCEB641A8ACB99005ECBC5 /* Monkey-1.jpg */,
+				EBCCEB651A8ACB99005ECBC5 /* Monkey-2.jpg */,
+				EBCCEB661A8ACB99005ECBC5 /* Monkey-3.jpg */,
+				EBCCEB671A8ACB99005ECBC5 /* Monkey-4.jpg */,
+				EBCCEB681A8ACB99005ECBC5 /* Monkey-5.jpg */,
+				EBCCEB691A8ACB99005ECBC5 /* Tiger-1.jpg */,
+				EBCCEB6A1A8ACB99005ECBC5 /* Tiger-2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EBCCEB751A8ACB99005ECBC5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB761A8ACB99005ECBC5 /* GAI.h */,
+				EBCCEB771A8ACB99005ECBC5 /* GAIDictionaryBuilder.h */,
+				EBCCEB781A8ACB99005ECBC5 /* GAIEcommerceFields.h */,
+				EBCCEB791A8ACB99005ECBC5 /* GAIEcommerceProduct.h */,
+				EBCCEB7A1A8ACB99005ECBC5 /* GAIEcommerceProductAction.h */,
+				EBCCEB7B1A8ACB99005ECBC5 /* GAIEcommercePromotion.h */,
+				EBCCEB7C1A8ACB99005ECBC5 /* GAIFields.h */,
+				EBCCEB7D1A8ACB99005ECBC5 /* GAILogger.h */,
+				EBCCEB7E1A8ACB99005ECBC5 /* GAITrackedViewController.h */,
+				EBCCEB7F1A8ACB99005ECBC5 /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EBCCEB811A8ACB99005ECBC5 /* GoogleTagManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB821A8ACB99005ECBC5 /* Changelog.txt */,
+				EBCCEB831A8ACB99005ECBC5 /* Examples */,
+				EBCCEBBB1A8ACB9A005ECBC5 /* Library */,
+				EBCCEBC11A8ACB9A005ECBC5 /* Readme.txt */,
+			);
+			path = GoogleTagManager;
+			sourceTree = "<group>";
+		};
+		EBCCEB831A8ACB99005ECBC5 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB841A8ACB99005ECBC5 /* CuteAnimals */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		EBCCEB841A8ACB99005ECBC5 /* CuteAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB851A8ACB99005ECBC5 /* AppDelegate.h */,
+				EBCCEB861A8ACB99005ECBC5 /* AppDelegate.m */,
+				EBCCEB871A8ACB99005ECBC5 /* CategoryViewController.h */,
+				EBCCEB881A8ACB99005ECBC5 /* CategoryViewController.m */,
+				EBCCEB891A8ACB99005ECBC5 /* CategoryViewController_iPad.xib */,
+				EBCCEB8A1A8ACB99005ECBC5 /* CategoryViewController_iPhone.xib */,
+				EBCCEB8B1A8ACB99005ECBC5 /* CustomMacroHandler.h */,
+				EBCCEB8C1A8ACB99005ECBC5 /* CustomMacroHandler.m */,
+				EBCCEB8D1A8ACB99005ECBC5 /* CustomTagHandler.h */,
+				EBCCEB8E1A8ACB99005ECBC5 /* CustomTagHandler.m */,
+				EBCCEB8F1A8ACB99005ECBC5 /* CuteAnimals-Info.plist */,
+				EBCCEB901A8ACB99005ECBC5 /* CuteAnimals-Prefix.pch */,
+				EBCCEB911A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */,
+				EBCCEB941A8ACB99005ECBC5 /* GTM-XXXX */,
+				EBCCEB951A8ACB99005ECBC5 /* GTM-XXXX.plist */,
+				EBCCEB961A8ACB99005ECBC5 /* Images */,
+				EBCCEBB01A8ACB9A005ECBC5 /* ImageViewController.h */,
+				EBCCEBB11A8ACB9A005ECBC5 /* ImageViewController.m */,
+				EBCCEBB21A8ACB9A005ECBC5 /* main.m */,
+				EBCCEBB31A8ACB9A005ECBC5 /* NavController.h */,
+				EBCCEBB41A8ACB9A005ECBC5 /* NavController.m */,
+				EBCCEBB51A8ACB9A005ECBC5 /* README */,
+				EBCCEBB61A8ACB9A005ECBC5 /* RootViewController.h */,
+				EBCCEBB71A8ACB9A005ECBC5 /* RootViewController.m */,
+				EBCCEBB81A8ACB9A005ECBC5 /* RootViewController.xib */,
+				EBCCEBB91A8ACB9A005ECBC5 /* Utils.h */,
+				EBCCEBBA1A8ACB9A005ECBC5 /* Utils.m */,
+			);
+			path = CuteAnimals;
+			sourceTree = "<group>";
+		};
+		EBCCEB921A8ACB99005ECBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEBC71A8ACB9A005ECBC5 /* CuteAnimals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCCEB961A8ACB99005ECBC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEB971A8ACB9A005ECBC5 /* Bunny-1.jpg */,
+				EBCCEB981A8ACB9A005ECBC5 /* Bunny-2.jpg */,
+				EBCCEB991A8ACB9A005ECBC5 /* Bunny-3.jpg */,
+				EBCCEB9A1A8ACB9A005ECBC5 /* Cat-1.jpg */,
+				EBCCEB9B1A8ACB9A005ECBC5 /* Cat-2.jpg */,
+				EBCCEB9C1A8ACB9A005ECBC5 /* Cat-3.jpg */,
+				EBCCEB9D1A8ACB9A005ECBC5 /* Cat-4.jpg */,
+				EBCCEB9E1A8ACB9A005ECBC5 /* Container.png */,
+				EBCCEB9F1A8ACB9A005ECBC5 /* CustomTag.png */,
+				EBCCEBA01A8ACB9A005ECBC5 /* Lion-1.jpg */,
+				EBCCEBA11A8ACB9A005ECBC5 /* Lion-2.jpg */,
+				EBCCEBA21A8ACB9A005ECBC5 /* Lion-3.jpg */,
+				EBCCEBA31A8ACB9A005ECBC5 /* Lion-4.jpg */,
+				EBCCEBA41A8ACB9A005ECBC5 /* Monkey-1.jpg */,
+				EBCCEBA51A8ACB9A005ECBC5 /* Monkey-2.jpg */,
+				EBCCEBA61A8ACB9A005ECBC5 /* Monkey-3.jpg */,
+				EBCCEBA71A8ACB9A005ECBC5 /* Monkey-4.jpg */,
+				EBCCEBA81A8ACB9A005ECBC5 /* Monkey-5.jpg */,
+				EBCCEBA91A8ACB9A005ECBC5 /* NumRefreshesMod5.png */,
+				EBCCEBAA1A8ACB9A005ECBC5 /* RefreshEvent.png */,
+				EBCCEBAB1A8ACB9A005ECBC5 /* RefreshEventTag.png */,
+				EBCCEBAC1A8ACB9A005ECBC5 /* ScreenClosedTag.png */,
+				EBCCEBAD1A8ACB9A005ECBC5 /* ScreenOpenTag.png */,
+				EBCCEBAE1A8ACB9A005ECBC5 /* Tiger-1.jpg */,
+				EBCCEBAF1A8ACB9A005ECBC5 /* Tiger-2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EBCCEBBB1A8ACB9A005ECBC5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCEBBC1A8ACB9A005ECBC5 /* TAGContainer.h */,
+				EBCCEBBD1A8ACB9A005ECBC5 /* TAGContainerOpener.h */,
+				EBCCEBBE1A8ACB9A005ECBC5 /* TAGDataLayer.h */,
+				EBCCEBBF1A8ACB9A005ECBC5 /* TAGLogger.h */,
+				EBCCEBC01A8ACB9A005ECBC5 /* TAGManager.h */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +916,24 @@
 			mainGroup = EBCCEA901A8AC9B5005ECBC5;
 			productRefGroup = EBCCEA9A1A8AC9B5005ECBC5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EBCCEB0F1A8ACAAA005ECBC5 /* Products */;
+					ProjectRef = EBCCEB0E1A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */;
+				},
+				{
+					ProductGroup = EBCCEB921A8ACB99005ECBC5 /* Products */;
+					ProjectRef = EBCCEB911A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */;
+				},
+				{
+					ProductGroup = EBCCEB561A8ACB99005ECBC5 /* Products */;
+					ProjectRef = EBCCEB551A8ACB99005ECBC5 /* CuteAnimals.xcodeproj */;
+				},
+				{
+					ProductGroup = EBCCEAD31A8ACAAA005ECBC5 /* Products */;
+					ProjectRef = EBCCEAD21A8ACAAA005ECBC5 /* CuteAnimals.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EBCCEA981A8AC9B5005ECBC5 /* googleAnalyticDemoApp */,
@@ -196,6 +941,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EBCCEB441A8ACAAB005ECBC5 /* CuteAnimals.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CuteAnimals.app;
+			remoteRef = EBCCEB431A8ACAAB005ECBC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBCCEB471A8ACAAB005ECBC5 /* CuteAnimals.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CuteAnimals.app;
+			remoteRef = EBCCEB461A8ACAAB005ECBC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBCCEBC71A8ACB9A005ECBC5 /* CuteAnimals.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CuteAnimals.app;
+			remoteRef = EBCCEBC61A8ACB9A005ECBC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EBCCEBCA1A8ACB9A005ECBC5 /* CuteAnimals.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CuteAnimals.app;
+			remoteRef = EBCCEBC91A8ACB9A005ECBC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EBCCEA971A8AC9B5005ECBC5 /* Resources */ = {
@@ -223,6 +999,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCCEAA21A8AC9B5005ECBC5 /* AppDelegate.m in Sources */,
+				EB1744E31A8C134900E2CA6D /* BlueViewController.m in Sources */,
 				EBCCEAA51A8AC9B5005ECBC5 /* googleAnalyticDemoApp.xcdatamodeld in Sources */,
 				EBCCEAA81A8AC9B5005ECBC5 /* ViewController.m in Sources */,
 				EBCCEA9F1A8AC9B5005ECBC5 /* main.m in Sources */,
@@ -351,6 +1128,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = googleAnalyticDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads/GoogleAnalyticsServicesiOS_3.10,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +1142,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = googleAnalyticDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/owner/Downloads/GoogleAnalyticsServicesiOS_3.10,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +1203,7 @@
 				EBCCEAC11A8AC9B5005ECBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBCCEAC21A8AC9B5005ECBC5 /* Build configuration list for PBXNativeTarget "googleAnalyticDemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +1212,7 @@
 				EBCCEAC41A8AC9B5005ECBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

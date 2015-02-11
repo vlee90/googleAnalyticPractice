@@ -10,13 +10,30 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) id<GAITracker> tracker;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.screenName = @"Main Screen";
+    UISwipeGestureRecognizer *leftSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeLeft)];
+    leftSwipe.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:leftSwipe];
+    
+    self.tracker = [[GAI sharedInstance] defaultTracker];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+}
+
+-(void)swipeLeft {
+    [self.tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"Segue" action:@"Swiped Left" label:@"ToBlueVC" value:nil] build]];
+    [self performSegueWithIdentifier:@"segueToBlueVC" sender:self];
 }
 
 - (void)didReceiveMemoryWarning {

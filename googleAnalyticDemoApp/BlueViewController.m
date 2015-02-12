@@ -12,7 +12,8 @@
 @interface BlueViewController ()
 
 @property (strong, nonatomic) id<GAITracker> tracker;
-@property (strong, nonatomic) NSNumber *itemPrice;
+@property (strong, nonatomic) GAIEcommerceProduct *itemProduct;
+@property (strong, nonatomic) GAIEcommerceProductAction *itemProductAction;
 
 @end
 
@@ -26,12 +27,21 @@
     [self.view addGestureRecognizer:rightSwipe];
     
     self.tracker = [[GAI sharedInstance] defaultTracker];
+    self.itemProduct = [[GAIEcommerceProduct alloc] init];
+    [self.itemProduct setName:@"Item"];
+    [self.itemProduct setPrice:@5.00];
+    self.itemProductAction = [[GAIEcommerceProductAction alloc] init];
+    [self.itemProductAction setAction:kGAIPAPurchase];
+    [self.itemProductAction setTransactionId:@"123ABC"];
     
-    self.itemPrice = [[NSNumber alloc] initWithInt:5];
+    
 }
 
 -(IBAction)buyItemButtonPressed:(id)sender {
-    [self.tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ButtonPress" action:@"Buy" label:@"Item" value:self.itemPrice] build]];
+    GAIDictionaryBuilder *builder = [GAIDictionaryBuilder createEventWithCategory:@"ButtonPressed" action:@"Buy Item" label:nil value:nil];
+    [builder setProductAction:self.itemProductAction];
+    [builder addProduct:self.itemProduct];
+    [self.tracker send:[builder build]];
 }
 
 -(void)swipeRight {

@@ -10,6 +10,9 @@
 #import "GAITrackedViewController.h"
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
+#import "GAIEcommerceProduct.h"
+#import "GAIEcommerceProductAction.h"
+#import "GAIEcommerceFields.h"
 
 @interface BlueViewController : GAITrackedViewController
 
